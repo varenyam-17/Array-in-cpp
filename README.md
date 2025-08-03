@@ -18,7 +18,31 @@ To study and implement C++ arrays and strings.
   ### Strings:
   - C++ string is a class providing built-in functions.
 - Different from character arrays (char[]), which are simpler and lack inbuilt manipulation tools.
-### Algorithm:
+### Algorithm:(To Find Sum and Average of Numbers in an Array)
+- Start
+- Declare an array and initialize it with required values
+- Input: Two indices i and j (representing positions of the two numbers in the array)
+- Retrieve the two elements: element1 = array[i] and element2 = array[j]
+- Compute Sum: sum = element1 + element2
+- Compute Average: average = sum / 2
+- Display the sum and average
+- End
+- ### Algorithm:(To Find Min and Max in an Array)
+- - Start
+- Declare an array and input the size n
+- Input all n elements into the array
+- Initialize:
+- min = array[0]
+- max = array[0]
+- Loop through the array from index 1 to n-1:
+- If array[i] < min, then min = array[i]
+- If array[i] > max, then max = array[i]
+- Display min and max
+- End
+## Conclusion:
+Arrays and strings are foundational data structures in C++ for handling collections of values and text. Arrays offer efficient indexed access and memory control, while strings provide powerful tools for manipulating text. Understanding their behavior, syntax, and usage is crucial for effective C++ programming
+
+
 
 
 
